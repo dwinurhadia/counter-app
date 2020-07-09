@@ -2,16 +2,14 @@ import React, { Component } from 'react';
 class Counter extends Component {
     state = {
         count: 0,
-        address : {
-            street : ''
-        }
     };
+
     render() {         
-        return ( 
-            <React.Fragment>
-                <h1>Hello World</h1>
-                <button>Increment</button>
-            </React.Fragment>
+        return (
+            <div>
+                <span>Hello World</span>
+                <button>Increment</button> 
+                </div>
         );
     }
 }
